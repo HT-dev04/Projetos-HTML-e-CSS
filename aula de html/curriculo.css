@@ -1,0 +1,39 @@
+body{ background-color:rgb(255, 247, 237); font-family:Arial, Helvetica, sans-serif;
+      margin:0px 100px 50px 100px; }
+
+
+h1{ background-color: rgb(185, 191, 255); color: rgb(26, 1, 103); 
+     text-align: center; border-bottom: solid 3px black;}
+
+
+#nacionalidade{ text-align: center;}
+
+
+h2{padding:5px; background-color:#ccc; color: rgb(27, 3, 98);
+border-bottom: solid 3px; }
+
+.negrito-azul{color: blue; font-size: 20px;}
+.subescrita1{ font-size: 15px;}
+.subescrita2{font-size: 13px;}
+ul{padding-left: 0px;}
+li{list-style-position: inside;}
+a{text-decoration: none;}
+a:hover{text-decoration:underline;}
+.menu{text-align: center;}
+
+.menu li{background-color:yellow; 
+   display:inline-block;
+   margin: 30px 60px;
+ }
+.menu a{ background-color:#ccc;
+       text-decoration: none;
+       padding:12px;
+       color:rgb(26, 1, 103);
+       border-bottom: rgb(26, 1, 103) solid;
+       border-left: rgb(26, 1, 103) solid;
+ 
+}
+
+.menu a:hover{ text-decoration:none;
+           background-color: rgb(9, 179, 179);
+}

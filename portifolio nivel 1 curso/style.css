@@ -1,0 +1,142 @@
+html,
+body{
+    min-height: 100%;
+}
+
+body{
+    margin:0;
+    background-image:url(imagens/img-3.png.png) ;
+    background-size: contain 500vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+h1{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px  #929292;
+}
+
+header img{
+    height: 100%;
+    width: 20%;
+    margin:0;
+}
+
+
+
+header{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    padding: 0;
+    margin-right: 26%;
+    margin-top:9.5%
+}
+
+.options-menu{
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+
+.options-menu a{
+    background-color: rgba(0, 0, 0, 0.303);
+    padding: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px  #929292;
+}
+
+.options-menu a:hover{
+    background-color: #2f2f2f;
+}
+
+.projetos img{
+    width: 20%;
+    height: 20%;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 3.5vw;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px   #929292;
+}
+
+p{
+    display: flex;
+    width:60%;
+   margin:auto;
+   text-shadow: 2px 2px 2px  #929292;
+}
+
+.container{
+    display: flex;
+    margin:30px auto;
+    width: 1060px;
+    gap:15px;
+    flex-wrap: wrap;
+}
+
+.projetos{
+    flex-basis:26%;
+    flex-grow: 1;
+    color:white;
+    justify-content: center;
+    display: flex;
+    background-color: #92929249;
+    height: 50%;
+    margin:0px;
+    border-radius: 7px;
+}
+
+
+.projetos a{
+    flex-basis:26%;
+    flex-grow:1;
+    color:white;
+    height:50%;
+    width: 50%;
+
+}
+
+.projetos a img{
+    width:100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+h3{
+    margin:8px;
+    font-size:18px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 2px  #000000f4;
+}
+
+a{
+    text-decoration: none;
+}
+
+.projetos a:hover{
+    background-color: #cccccc5a;
+    border-radius: 8px;
+}

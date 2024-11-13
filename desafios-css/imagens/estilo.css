@@ -1,0 +1,62 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+}
+
+.cabeçalho{
+    padding:1px;
+    text-align: center;
+}
+
+.cabeçalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin:100px auto 0;
+}
+
+.cabeçalho p{
+    background-color: rgba(0, 0, 0, 0.7);
+    width:fit-content;
+    font-size:18px;
+    padding:16px;
+    display: inline-block;
+    color:white;
+    border-bottom:2px white solid;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width:860px;
+    margin:30px auto;
+    background-color:rgb(0,0,0,0.7);
+    gap:15px;
+}
+   
+
+.elements{
+    outline:15px solid white;
+    flex-basis:26%;
+    flex-grow: 1;
+    color:white;
+}
+
+.elements img{
+    width:100%;
+}
+
+.elements h2{
+    margin:8px;
+    font-size:18px;
+}
